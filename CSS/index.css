@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato',sans-serif;
+}
+
+/* Navbar start */
+#navbar{
+    background: #f9f9f9; 
+    
+    
+}
+#logo{
+    
+    
+    width: 120px;
+    height: 80px;
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+} 
+
+#logo span img{
+    width: 100%;
+}
+
+#logo span{
+    color: #f46cfc;
+}
+.navbar-toggler span{
+    color: #f46cfc;
+
+}
+.navbar-nav{
+    margin-left: 20px;
+
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #f46cfc;
+    color: white;
+}
+#navbar form button{
+    background: #f46cfc;
+    color: white;
+    border: none;
+}
+/*Navbar end*/
+
+/*Home section start*/
+/* .home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../image/Fond.jpg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    
+    
+} */
+#premier{
+    color: #f46cfc;
+
+}
+#deuxieme{
+    color: #74bc44;
+}
+body{
+    padding-top: 105px;
+}
+.home .content{
+    text-align: center;
+    
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px ;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.changecontent::after{
+    content: ' ';
+    color: #f46cfc;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+@keyframes changetxt{
+    0%{content: "Vacance";}
+    20%{content: "Piscine";}
+    40%{content: "hébergement";}
+    60%{content: "Loisir";}
+    80%{content: "Restaurant";}
+    100%{content: "wifi";}
+    
+}
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #f46cfc;
+    color: white;
+}
+@media (max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    .home .content h5{
+        font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+/*Home section end*/
+
+
+
+
+
+/*Section Packages Start*/
+    .main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+   }
+   .main-txt h1 span{
+    color: #74bc44;
+   }
+   .packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+   }
+   .packages .card img{
+    border-radius: 5px;
+   }
+   .packages .card .card-body{
+    background: transparent;
+
+   }
+   .packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+   }
+   .packages .card .card-body p{
+    font-size: 15px;
+   }
+   .checked{
+    color: #ffa500;
+   }
+   .star i{
+    font-size: 15px;
+   }
+   .packages .card .card-body h6{
+    font-size: 20px;
+   }
+   .packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+   } */
+/*Section Packages End*/
+
+
+/*Section Services Start*/
+.services{
+    background: #f9f9f9;
+    margin-top: 50px;
+
+}
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #f46cfc;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/*Section Services End*/
+
+/*Section gallary start*/
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+/*Section gallary end*/
+
+
+/*About Start*/
+.about{
+    
+   margin-top: 50px; 
+    background: #f9f9f9;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+}
+#about-btn{
+    width: 190px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #f46cfc;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 200px;
+}
+.nom_hotel{
+    color: #74bc44;
+}
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+/*About End*/
+
+
+
+
+
+
+/*ao amin'ilay hébergement*/
+.table-with-bg {
+    background-image: url(); /* Chemin vers votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond de la table avec une opacité */
+  }
+/*ao amin'ilay gébergement*/
+
+
+
+
+
+
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+.bright-video {
+    filter: brightness(40%); /* Réglez la luminosité à 70% */
+}
+
+
+
+
+
+
+/*** Booking ***/
+.booking {
+    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../fond_input/EXTERIEUR_05.JPG); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*** Team ***/
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team-item .btn {
+    background: #FFFFFF;
+    color: var(--primary);
+    border-radius: 20px;
+    border-bottom: 1px solid var(--primary);
+}
+
+.team-item .btn:hover {
+    background: var(--primary);
+    color: #FFFFFF;
+}
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+/**PISCINE*/
+#piscine{
+    margin-top: 50px;
+}

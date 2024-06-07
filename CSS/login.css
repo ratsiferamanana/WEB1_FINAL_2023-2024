@@ -1,0 +1,166 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    width: 400px;
+    background: #ffffff3f;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login .logo{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.login .logo i{
+    font-size: 32px;
+}
+
+.input_box span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input_box .icon{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input_box .icon i{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-right: 2px solid #ccc;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.input_box .icon input{
+    padding: 10px;
+    padding-left: 50px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    box-shadow: 1px 1px 2px #00ffe0;
+}
+
+.login .forgot_password a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000dff;
+}
+
+.login .forgot_password a:hover{
+    text-decoration: underline;
+}
+
+.login button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff00b8, #00ffe0);
+    color: #fff;
+}
+
+.login button:hover{
+    background: linear-gradient(to left, #ff00b8, #00ffe0);
+}
+
+.login .signup{
+    text-align: center;
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login .social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login .social_icon a{
+    border-radius: 50%;
+    padding: 8px 10px;
+    transition: all 0.4s ease;
+}
+
+.login .social_icon a:hover{
+    transform: scale(1.2);
+}
+
+.login .social_icon a i{
+    font-size: 24px;
+    color: #fff;
+}
+
+.social_icon #facebook{
+    background-color: #0047ff;
+}
+
+.social_icon #twitter{
+    background-color: #0094ff;
+}
+
+.social_icon #google{
+    background-color: #ff0000;
+}
+
+.social_icon #github{
+    background-color: #000;
+}
+
+.login .alreadyAccount p{
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login .alreadyAccount p a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000dff;
+}
+
+.login .alreadyAccount p a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .login{
+        width: 93%;
+    }
+}
