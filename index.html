@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Lotus Bangalow</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/index.css">
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="./JS/reservation.js" defer></script>
 
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- font awesome cdn -->
 </head>
-</head>
 <body>
-      <!--nav bar start-->
-      <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    
+     <!--nav bar start-->
+     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html" id="logo"><span><img src="./icone/logo_rectifier.png" alt=""></span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -28,7 +29,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#book">Reserver</a>
+                <a class="nav-link" href="#bienvenue">Bienvenu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#packages">Chambre</a>
@@ -37,7 +38,10 @@
                 <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallary">Gallery</a>
+                <a class="nav-link" href="#piscine">Piscine</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reserver">Reserver</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">A propos</a>
@@ -55,5 +59,703 @@
         </div>
       </nav> 
      <!--nav bar end-->
+     
+
+   
+
+      <!-- Home Section -->
+    <div class="home">
+      <!-- Video Background -->
+      <video autoplay loop muted class="video-bg bright-video">
+          <source src="./video/LE LOTUS_FINAL_V1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+
+      <!-- Content -->
+      <div class="content">
+          <h1>Bienvenue sur <span id="premier">Le lotus</span><span id="deuxieme"> Bangalow</span></h1>
+          <h1><span class="changecontent"></span></h1>
+          <p>Plongez dans une expérience de vacances inoubliable en visitant notre site web</p>
+          <a href="#book">Réserver une place</a>
+      </div>
+  </div>
+
+
+   <!-- Bienvenue start -->
+   <div class="container-xxl py-5 mt-5" id="bienvenue">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="./image/bienvenue.jpg" alt="" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                
+                <h1 class="mb-4">Bienvenu sur  <span class="nom_hotel">Le lotus bungalow</span></h1>
+                <p class="mb-4">"Nous sommes enchantés de vous accueillir au Lotus Bungalow, un havre de paix où chaque instant est une invitation à la sérénité et à l'émerveillement. Découvrez nos hébergements de première classe, nos services sur mesure, nos équipements haut de gamme et notre engagement à rendre votre séjour inoubliable. Bienvenue dans l'expérience Lotus, où le luxe et l'authenticité se rencontrent pour créer des souvenirs mémorables."
+                </p>
+          
+                <div class="row gy-2 gx-4 mb-4">
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Piscine</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Billard</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Wifi</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Restaurant</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Hébergement</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Evenement</p>
+                    </div>
+                
+        </div>
+    </div>
+</div>
+<!-- Bienvenue end -->
+
+
+
+    
+
+
+
+      
+
+
+
+      <!-- Room Start -->
+      <div class="container-xxl py-5 mt-5" id="packages">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-secondary text-uppercase">Les chambre</h6>
+                <h1 class="mb-5">Explore Our <span class="text-secondary text-uppercase">Chambre</span></h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./bangalow_img/chambre1.JPG" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-secondary text-white rounded py-1 px-3 ms-4">95 000 Ar</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">Junior Suite</h5>
+                                <div class="ps-2">
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-secondary me-2"></i>2 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-secondary me-2"></i>1 Bath</small>
+                                <small><i class="fa fa-wifi text-secondary me-2"></i>Wifi</small>
+                            </div>
+                            <p class="text-body mb-3">Cette chambre a 2 lits,1 douche avec wifi</p>
+                            <div class="d-flex justify-content-between">
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./bangalow_img/chambre2.JPG" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-secondary text-white rounded py-1 px-3 ms-4">110 000 Ar</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">Executive Suite</h5>
+                                <div class="ps-2">
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-secondary me-2"></i>3 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-secondary me-2"></i>1 Bath</small>
+                                <small><i class="fa fa-wifi text-secondary me-2"></i>Wifi</small>
+                            </div>
+                            <p class="text-body mb-3">Cette chambre a 3 lits,1 douche avec wifi</p>
+                            <div class="d-flex justify-content-between">
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./bangalow_img/chambre3.JPG" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-secondary text-white rounded py-1 px-3 ms-4">115 000 Ar</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">Super Deluxe</h5>
+                                <div class="ps-2">
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-secondary me-2"></i>2 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-secondary me-2"></i>1 Bath</small>
+                                <small><i class="fa fa-wifi text-secondary me-2"></i>Wifi</small>
+                            </div>
+                            <p class="text-body mb-3">Cette chambre a 2 lits,1 douche avec wifi</p>
+                            <div class="d-flex justify-content-between">
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--ETO NO MANOMBOKA ILAY FAHA 3 AMBANY CHAMBRE-->
+            <div class="row g-4 mt-2">
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="room-item shadow rounded overflow-hidden">
+                      <div class="position-relative">
+                          <img class="img-fluid" src="./bangalow_img/chambre4.JPG" alt="">
+                          <small class="position-absolute start-0 top-100 translate-middle-y bg-secondary text-white rounded py-1 px-3 ms-4">110 000 Ar</small>
+                      </div>
+                      <div class="p-4 mt-2">
+                          <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">Junior Suite</h5>
+                              <div class="ps-2">
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                              </div>
+                          </div>
+                          <div class="d-flex mb-3">
+                              <small class="border-end me-3 pe-3"><i class="fa fa-bed text-secondary me-2"></i>2 Bed</small>
+                              <small class="border-end me-3 pe-3"><i class="fa fa-bath text-secondary me-2"></i>1 Bath</small>
+                              <small><i class="fa fa-wifi text-secondary me-2"></i>Wifi</small>
+                          </div>
+                          <p class="text-body mb-3">Cette chambre a 2 lits,1 douche avec wifi</p>
+                          <div class="d-flex justify-content-between">
+                              <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                              <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="room-item shadow rounded overflow-hidden">
+                      <div class="position-relative">
+                          <img class="img-fluid" src="./bangalow_img/chambre6.JPG" alt="">
+                          <small class="position-absolute start-0 top-100 translate-middle-y bg-secondary text-white rounded py-1 px-3 ms-4">75 000 Ar</small>
+                      </div>
+                      <div class="p-4 mt-2">
+                          <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">Executive Suite</h5>
+                              <div class="ps-2">
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                              </div>
+                          </div>
+                          <div class="d-flex mb-3">
+                              <small class="border-end me-3 pe-3"><i class="fa fa-bed text-secondary me-2"></i>1 Bed</small>
+                              <small class="border-end me-3 pe-3"><i class="fa fa-bath text-secondary me-2"></i>1 Bath</small>
+                              <small><i class="fa fa-wifi text-secondary me-2"></i>Wifi</small>
+                          </div>
+                          <p class="text-body mb-3">cette chambre a 1 lit,1 douche avec wifi</p>
+                          <div class="d-flex justify-content-between">
+                              <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                              <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="room-item shadow rounded overflow-hidden">
+                      <div class="position-relative">
+                          <img class="img-fluid" src="./bangalow_img/chambre6.JPG" alt="">
+                          <small class="position-absolute start-0 top-100 translate-middle-y bg-secondary text-white rounded py-1 px-3 ms-4">75 000 Ar</small>
+                      </div>
+                      <div class="p-4 mt-2">
+                          <div class="d-flex justify-content-between mb-3">
+                              <h5 class="mb-0">Super Deluxe</h5>
+                              <div class="ps-2">
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                                  <small class="fa fa-star text-primary"></small>
+                              </div>
+                          </div>
+                          <div class="d-flex mb-3">
+                              <small class="border-end me-3 pe-3"><i class="fa fa-bed text-secondary me-2"></i>1 Bed</small>
+                              <small class="border-end me-3 pe-3"><i class="fa fa-bath text-secondary me-2"></i>1 Bath</small>
+                              <small><i class="fa fa-wifi text-secondary me-2"></i>Wifi</small>
+                          </div>
+                          <p class="text-body mb-3">cette chambre a 1 lit , 1 douche avec wifi</p>
+                          <div class="d-flex justify-content-between">
+                              <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                              <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <!--ETO NO MIFARANA-->
+        </div>
+    </div>
+    <!-- Room End -->
+    
+
+<!--Hebergement Start-->
+<div class="container">
+  <h1 class="mt-5 mb-4 text-center">Découvrez Nos Tarifs Irrésistibles</h1>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col" style="color: #74bc44;">Type de Chambre</th>
+        <th scope="col" style="color: #74bc44;">Haute Saison</th>
+        <th scope="col" style="color: #74bc44;">Basse Saison</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Famille (4 personnes)</th>
+        <td>110 000 Ar</td>
+        <td>95 000 Ar</td>
+      </tr>
+      <tr>
+        <th scope="row">Famille (5 personnes)</th>
+        <td>115 000 Ar (120 000 Ar avec cuisine intérieure)</td>
+        <td>100 000 Ar</td>
+      </tr>
+      <tr>
+        <th scope="row">Famille (6 personnes)</th>
+        <td>120 000 Ar</td>
+        <td>105 000 Ar</td>
+      </tr>
+      <tr>
+        <th scope="row">Couple</th>
+        <td>85 000 Ar (75 000 Ar avec cuisine intérieure)</td>
+        <td>75 000 Ar</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+ <!--Hebergement End-->
+
+
+
+
+     <!--Section Services Start-->
+        <section class="services" id="services">
+          <div class="container">
+            <div class="main-txt">
+              <h1><span>S</span>ervices</h1>
+            </div>
+           
+            <!--copie2-->
+            <div class="row" style="margin-top: 30px;">
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-hotel"></i>
+                  <div class="card-body">
+                    <h3>Hôtel Abordable</h3>
+                    <p> le confort et la qualité
+                       se rencontrent pour rendre
+                        votre séjour inoubliable."
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--copie 2-->
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-utensils"></i>
+                  <div class="card-body">
+                    <h3>Aliments && boissons</h3>
+                    <p>Découvrez une sélection exquise
+                       de plats  préparés avec soin par nos chefs</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--copie 3-->
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-smile"></i>
+                  <div class="card-body">
+                    <h3>Loisir</h3>
+                    <p>. Profitez de notre gamme
+                       d'activités pour vivre des instants
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--test copie -->
+            <div class="row" style="margin-top: 30px;">
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-globe-asia"></i>
+                  <div class="card-body">
+                    <h3>Tous en vacance</h3>
+                    <p>Ne ratez pas le vacance avec nous , avec plaisir </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--copie 2-->
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-plane"></i>
+                  <div class="card-body">
+                    <h3>Partez en vacance</h3>
+                    <p>Venez avec nous pour enlever tous vos stres </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--copie 3-->
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-hiking"></i>
+                  <div class="card-body">
+                    <h3>Aventures</h3>
+                    <p>Préparez-vous à vivre une aventure inoubliable lors de votre séjour à notre hôtel</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+     <!--Section Services End-->
+
+
+     <!--Piscine Start-->
+
+     <section id="piscine">
+      <div class="container">
+        <div class="main-txt">
+          <h1>P<span>iscine</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-lg-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./piscine_jpg/piscine1.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-6 py-3 py-md-0">
+            <h2>Quoi de plus beau des vacances de rêves au <span class="nom_hotel">LOTUS BANGALOW</span></h2>
+            <p> <span class="nom_hotel"> Le Lotus Bangalow</span> On vous offrira des possibilités de profiter 
+              de la piscine de l'hôtel avec déjeuner au soleil
+              Un surplus de menu agréable pour vos détente ,
+              la piscine extérieur aura également une vue sur la mer
+            </p>
+            
+              
+             <button id="about-btn">Plus d'information</button>
+            
+          
+        </div>
+      </div>
+
+      <!--inverse pour cette premier-->
+      <div class="row" style="margin-top: 50px;">
+        
+
+        <div class="col-lg-6 py-3 py-md-0">
+          <h2>"La piscine du <span class="nom_hotel">Lotus Bungalow</span> invite à la relaxation totale sous le ciel bleu."</h2>
+          <p> 
+            "Découvrez un havre de paix au cœur de notre hôtel, où la piscine devient l'épicentre de votre
+             séjour. Plongez dans une oasis de fraîcheur et de détente, où le murmure de l'eau se mêle au 
+             chant des oiseaux. Notre piscine, nichée au milieu de luxuriants jardins tropicaux, vous invite
+              à vous prélasser sous le soleil méditerranéen ou à vous rafraîchir dans ses eaux cristallines. 
+              
+          </p>
+          
+            
+           <button id="about-btn">Plus d'information</button>
+          
+        
+      </div>
+      <div class="col-lg-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./piscine_jpg/piscine2.jpg" alt="">
+          </div>
+        </div>
+    </div>
+     </section>
+     <!--Piscine End-->
+
+
+
+      <!-- Booking Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" id="reserver">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>R</span>eservation</h1>
+        </div>
+          <div class="booking p-5">
+              <div class="row g-5 align-items-center">
+                  <div class="col-md-6 text-white">
+                      <h6 class="text-white text-uppercase">Explorez un nouveau monde de réservations</h6>
+                      <h1 class="text-white mb-4">Resertation en ligne</h1>
+                      <p class="mb-4">Ne manquez pas l'occasion de vivre des moments magiques en réservant votre escapade dès maintenant</p>
+                      <p class="mb-4">Faites de vos vacances un moment d'exception en réservant votre hébergement dès maintenant. Nous avons hâte de vous accueillir</p>
+                      <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Plus d'info</a>
+                  </div>
+                  <div class="col-md-6">
+                      <h1 class="text-white mb-4">reservation</h1>
+                      <form>
+                          <div class="row g-3">
+                              <div class="col-md-6">
+                                  <div class="form-floating">
+                                      <input type="text" class="form-control bg-light" id="name" placeholder="Your Name" required>
+                                      <label for="name">Nom</label>
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-floating">
+                                      <input type="email" class="form-control bg-light" id="Email" placeholder="Your Email" required>
+                                      <label for="Email">Email</label>
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-floating date" id="date3" data-target-input="nearest">
+                                      <input type="text" class="form-control bg-light datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" required/>
+                                      <label for="datetime">Date && Time</label>
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control bg-light" id="contact" placeholder="Contact">
+                                    <label for="contact">Contact</label>
+                                </div>
+                            </div>
+                              <div class="col-12">
+                                  <div class="form-floating">
+                                      <textarea class="form-control bg-light" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                      <label for="message">Demande Spéciale</label>
+                                  </div>
+                              </div>
+                              <div class="col-12">
+                                  <button class="btn btn-outline-light w-100 py-3" type="submit">Reserver</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Booking Start -->
+
+     <!--Section Gallary Start-->
+
+     <section class="gallary" id="gallary">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>allary</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/347249729_229712279687768_7042860430729127251_n.jpg" alt="" height="230px">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/347601939_1285549252368785_1551976491378716737_n.jpg" alt="" height="230px">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/403732732_856233879539279_8383196463976986278_n.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/405128876_856236209539046_3685915434267562835_n.jpg" alt="" height="230px">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/405200516_856236149539052_360802718447433710_n.jpg" alt="" height="230px">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/405204317_856235749539092_6570690481994333360_n.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!--Section Gallary End-->
+
+
+     
+
+     
+     
+     
+
+     
+<!--About Start-->
+      <section class="about" id="about">
+      <div class="container">
+        <div class="main-txt">
+          <h1>A<span> Propos</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-lg-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./gallary/403732732_856233879539279_8383196463976986278_n.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-6 py-3 py-md-0">
+            <h2>Explorez notre havre de confort au <span class="nom_hotel">LOTUS BANGALOW</span></h2>
+            <p> Bienvenue sur le site web de <span class="nom_hotel">Lotus Bangalow</span>! Nous 
+              sommes ravis de vous accueillir dans notre havre de confort .
+              <span class="nom_hotel">Le Lotus Bungalow</span>  est un complexe hôtelier situé au bord de 
+              route nationale, à 1,3km de la plage
+              Avec :<span class="nom_hotel">Billard</span>, <span class="nom_hotel">Wifi</span> ,
+              <span class="nom_hotel">Restaurant</span> ,<span class="nom_hotel"> Hébérgement</span>
+              , 
+              notre hôtel offre une expérience de séjour inoubliable, 
+              que vous voyagiez pour affaires ou pour le plaisir.</p>
+            <button id="about-btn">Plus d'information</button>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!--About End-->
+
+   <!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" id="footer">
+  
+  <div class="container py-5">
+   
+      <div class="row g-5 justify-content-center">
+        
+        
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Contact</h4>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>foulpointe</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+261 34 31 377 32</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+261 33 14 134 32</p>
+              <p class="mb-2"><i class="fa fa-envelope me-3"></i>lelotus.bungalow@gmail.com</p>
+              <div class="d-flex pt-2">
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Gallery</h4>
+              <div class="row g-2 pt-2">
+                  <div class="col-4">
+                      <img class="img-fluid bg-light p-1" src="./gallerie_footer/EXTERIEUR_01.JPG" alt="">
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light p-1" src="./gallerie_footer/EXTERIEUR_03.JPG" alt="">
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light p-1" src="./gallerie_footer/EXTERIEUR_04.JPG" alt="">
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light p-1" src="./gallerie_footer/EXTERIEUR_05.JPG" alt="">
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light p-1" src="./gallerie_footer/EXTERIEUR_09.JPG" alt="">
+                  </div>
+                  <div class="col-4">
+                      <img class="img-fluid bg-light p-1" src="./gallerie_footer/EXTERIEUR_15.JPG" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <h4 class="text-white mb-3">Nouveau</h4>
+              <p>Enter votre mail pour être avec nous</p>
+              <div class="position-relative mx-auto" style="max-width: 400px;">
+                  <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                  <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="copyright">
+          <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                  &copy; <a class="border-bottom" href="#">
+                    <span class="nom_hotel">LE LOTUS BUNGALOW</span></a>, All Right Reserved.
+
+                  <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                  </a>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                  <div class="footer-menu">
+                      <a href="">Home</a>
+                      <a href="">Cookies</a>
+                      <a href="">Help</a>
+                      <a href="">FQAs</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Footer End -->
+
 </body>
 </html>
